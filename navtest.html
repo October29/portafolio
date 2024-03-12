@@ -1,0 +1,83 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+  }
+  body {
+    background-color: rgb(110, 110, 110);
+  }
+            .service {
+              padding: 2rem;
+
+            }
+            .service-design {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: start;
+              align-items: center;
+              width: 300px;
+              height: auto;
+              transition: 0.5s ease-in-out;
+              border-radius: 1rem;
+              overflow: hidden;
+              background-color: #1e0d08;
+              transition: all 0.2s ease-in-out;
+            }
+            .service-design:hover  .carrusel {
+              height: 300px;
+              background-size: 100%;
+              filter: blur(0);
+            }
+          .carrusel {
+            width: 300px;
+            height: 100px;
+            background-repeat: no-repeat;
+              background-size: 103%;
+              background-position: right;
+              transition: 0.5s ease-in-out;
+              box-shadow: 5px 5px 10px #201c1b1f;
+              filter: blur(1px);
+              background-image: url(./img/bv_paletes.jpg);
+          }
+            .text {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: start;
+              width: auto;
+              height: auto;
+              transition: 0.5s ease-in-out;
+            }
+    
+            .text h3 {
+              width: auto;
+              margin: 1rem 1.5rem 0;
+              padding-top: 10px;
+              text-align: right;
+              font-size: 2.3rem;
+              font-weight: 900;
+              color: #ff7548;
+            }
+            .text p {
+              max-width: 900px;
+              word-spacing: -1.7px;
+              margin: 0 1.5rem 2rem;
+              text-align: right;
+              font-size: 1.3rem;
+              color: white;
+            }
+</style>
+<section class="service">
+  <div class="service-design">
+    <div class="text">
+      <h3>Brandlover</h3>
+      <p>Logos molones</p>
+      <div class="carrusel" id="carrusel"></div>
+    </div>
+  </div>
+</section>
