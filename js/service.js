@@ -55,7 +55,7 @@ class ServiceDesign extends HTMLElement {
                     transition: 0.5s ease-in-out;
                     box-shadow: 5px 5px 10px #201c1b1f;
                     filter: brightness(0.9) blur(1px);
-                    background-image: url(./img/bv_paletes.jpg);
+                    background-image: url(./img/logo.svg);
                 }
                   .text {
                     display: flex;

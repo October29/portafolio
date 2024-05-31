@@ -2120,22 +2120,18 @@ class IllustrationHead extends HTMLElement {
 <path id="Vector_607" d="M709.09 240.84H682.96V297.74H709.09V240.84Z" fill="#FC976B"/>
 <path id="Vector_608" d="M709.089 297.744H716.749V240.844H709.089V297.744Z" fill="white"/>
 <path id="Vector_609" d="M716.54 240.84H682.96V297.74H716.54V240.84Z" stroke="#CC5519" stroke-width="4" stroke-miterlimit="10"/>
-<path id="Vector_610" d="M682.36 257.63H659.03V280.96H682.36V257.63Z" fill="#F4D69A"/>
-<path id="Vector_611" d="M682.36 257.63H659.03V280.96H682.36V257.63Z" stroke="#CC5519" stroke-width="4.5113" stroke-miterlimit="10"/>
 <path id="Vector_612" d="M740.19 158.39H716.86V181.72H740.19V158.39Z" fill="#F4D69A"/>
 <path id="Vector_613" d="M740.19 158.39H716.86V181.72H740.19V158.39Z" stroke="#CC5519" stroke-width="4.5113" stroke-miterlimit="10"/>
 <path id="Vector_614" d="M969.14 3.2204H740.2V212.67H969.14V3.2204Z" fill="white"/>
 <path id="Vector_615" d="M961.13 10.7504H740.2V212.67H961.13V10.7504Z" fill="#FFCBAE"/>
 <path id="Vector_616" d="M969.14 3.2204H740.2V212.67H969.14V3.2204Z" stroke="#CC5519" stroke-width="4" stroke-miterlimit="10"/>
-<path id="Vector_617" d="M659.28 236.09H430.34V302.5H659.28V236.09Z" fill="white"/>
-<path id="Vector_618" d="M659.28 236.09H430.34V302.5H659.28V236.09Z" stroke="#CC5519" stroke-width="4" stroke-miterlimit="10"/>
+
+
 <path id="Vector_619" d="M709.09 419.94H682.96V476.84H709.09V419.94Z" fill="#FC976B"/>
 <path id="Vector_620" d="M709.089 476.848H716.749V419.948H709.089V476.848Z" fill="white"/>
 <path id="Vector_621" d="M716.54 419.94H682.96V476.84H716.54V419.94Z" stroke="#CC5519" stroke-width="4" stroke-miterlimit="10"/>
-<path id="Vector_622" d="M682.36 436.73H659.03V460.06H682.36V436.73Z" fill="#F4D69A"/>
-<path id="Vector_623" d="M682.36 436.73H659.03V460.06H682.36V436.73Z" stroke="#CC5519" stroke-width="4" stroke-miterlimit="10"/>
-<path id="Vector_624" d="M659.28 415.19H430.34V481.6H659.28V415.19Z" fill="white"/>
-<path id="Vector_625" d="M659.28 415.19H430.34V481.6H659.28V415.19Z" stroke="#CC5519" stroke-width="4" stroke-miterlimit="10"/>
+
+
 <path id="Vector_626" d="M709.09 332.02H682.96V388.92H709.09V332.02Z" fill="#FC976B"/>
 <path id="Vector_627" d="M709.089 388.923H716.749V332.023H709.089V388.923Z" fill="white"/>
 <path id="Vector_628" d="M716.54 332.02H682.96V388.92H716.54V332.02Z" stroke="#CC5519" stroke-width="4" stroke-miterlimit="10"/>
@@ -2233,3 +2229,17 @@ class IllustrationHead extends HTMLElement {
 
 
     customElements.define('illustration-head', IllustrationHead);
+
+    /* 
+    <path id="Vector_617" d="M659.28 236.09H430.34V302.5H659.28V236.09Z" fill="white"/>
+    <path id="Vector_618" d="M659.28 236.09H430.34V302.5H659.28V236.09Z" stroke="#CC5519" stroke-width="4" stroke-miterlimit="10"/>
+    <path id="Vector_625" d="M659.28 415.19H430.34V481.6H659.28V415.19Z" stroke="#CC5519" stroke-width="4" stroke-miterlimit="10"/>
+    <path id="Vector_624" d="M659.28 415.19H430.34V481.6H659.28V415.19Z" fill="white"/>
+    <path id="Vector_622" d="M682.36 436.73H659.03V460.06H682.36V436.73Z" fill="#F4D69A"/>
+<path id="Vector_623" d="M682.36 436.73H659.03V460.06H682.36V436.73Z" stroke="#CC5519" stroke-width="4" stroke-miterlimit="10"/>
+  <path id="Vector_610" d="M682.36 257.63H659.03V280.96H682.36V257.63Z" fill="#F4D69A"/>
+<path id="Vector_611" d="M682.36 257.63H659.03V280.96H682.36V257.63Z" stroke="#CC5519" stroke-width="4.5113" stroke-miterlimit="10"/>
+
+
+
+    */

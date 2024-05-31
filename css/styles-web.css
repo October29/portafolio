@@ -1,0 +1,78 @@
+.web_tittle {
+    color: #ffffff;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+    margin: 2rem 8rem 2rem;
+}
+
+.basalto-container {
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    margin: auto;
+    gap: 1rem;
+}
+
+.basalto-web-uno {
+    width: 40rem;
+    height: 32rem;
+    background-image: url(../img/web-Basalto-07.jpg);
+    background-size: cover;
+    box-shadow: 5px 5px 5px #0f0d0d;
+    transition: all 0.2s ease-in-out;
+    flex: 1;
+}
+
+.basalto-web-dos {
+    width: 40rem;
+    height: 26rem;
+    background-image: url(../img/web-Basalto-07.jpg);
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 5px 5px 5px #0f0d0d;
+    transition: all 0.2s ease-in-out;
+    flex: 1;
+}
+
+.aqch-container {
+    display: flex;
+    width: 70vw;
+    margin: auto;
+}
+
+.aqch-web-uno {
+    width: 40rem;
+    height: 52rem;
+    background-image: url(../img/aqch-web.jpg);
+    background-size: cover;
+    transition: all 0.2s ease-in-out;
+    flex: 1;
+}
+.aqch-web-dos {
+    width: 40rem;
+    height: 52rem;
+    background-image: url(../img/aqch-web3.jpg);
+    background-size: cover;
+    transition: all 0.2s ease-in-out;
+    flex: 1;
+}
+.aqch-web-tres {
+    width: 40rem;
+    height: 52rem;
+    background-image: url(../img/aqch-web2.jpg);
+    background-size: cover;
+    transition: all 0.2s ease-in-out;
+    flex: 1;
+}
+
+.basalto-web-uno:hover, .basalto-web-dos:hover {
+    transform: scale(1.03);
+    z-index: 2;
+}
+
+.aqch-web-uno:hover, .aqch-web-dos:hover,.aqch-web-tres:hover {
+    transform: scale(1.03);
+    z-index: 2;
+    flex: 3;
+}

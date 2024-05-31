@@ -4,26 +4,39 @@ var i = 0;
 boxes.forEach(box => {
     box.addEventListener('click', function() {
         box.classList.toggle('full');
+    });
+    box.addEventListener('mouseover', function() {
+        
         if(box.classList.contains('uno')){
-            body.classList.toggle('bg-cinco');
+            body.classList.remove('bg-uno','bg-dos','bg-tres','bg-cuatro','bg-cinco','bg-seis','bg-siete','bg-ocho','bg-nueve','bg-diez');
+            body.classList.add('bg-cinco');
         } else if (box.classList.contains('dos')){
-            body.classList.toggle('bg-dos');
+            body.classList.remove('bg-uno','bg-dos','bg-tres','bg-cuatro','bg-cinco','bg-seis','bg-siete','bg-ocho','bg-nueve','bg-diez');
+            body.classList.add('bg-cuatro');
         } else if (box.classList.contains('tres')){
-            body.classList.toggle('bg-dos');
+            body.classList.remove('bg-uno','bg-dos','bg-tres','bg-cuatro','bg-cinco','bg-seis','bg-siete','bg-ocho','bg-nueve','bg-diez');
+            body.classList.add('bg-dos');
         } else if (box.classList.contains('cuatro')){
-            body.classList.toggle('bg-seis');
+            body.classList.remove('bg-uno','bg-dos','bg-tres','bg-cuatro','bg-cinco','bg-seis','bg-siete','bg-ocho','bg-nueve','bg-diez');
+            body.classList.add('bg-seis');
         } else if (box.classList.contains('cinco')){
-            body.classList.toggle('bg-uno');
+            body.classList.remove('bg-uno','bg-dos','bg-tres','bg-cuatro','bg-cinco','bg-seis','bg-siete','bg-ocho','bg-nueve','bg-diez');
+            body.classList.add('bg-uno');
         } else if (box.classList.contains('seis')){
-            body.classList.toggle('bg-siete');
+            body.classList.remove('bg-uno','bg-dos','bg-tres','bg-cuatro','bg-cinco','bg-seis','bg-siete','bg-ocho','bg-nueve','bg-diez');
+            body.classList.add('bg-siete');
         } else if (box.classList.contains('siete')){
-            body.classList.toggle('bg-nueve');
+            body.classList.remove('bg-uno','bg-dos','bg-tres','bg-cuatro','bg-cinco','bg-seis','bg-siete','bg-ocho','bg-nueve','bg-diez');
+            body.classList.add('bg-nueve');
         } else if (box.classList.contains('ocho')){
-            body.classList.toggle('bg-tres');
+            body.classList.remove('bg-uno','bg-dos','bg-tres','bg-cuatro','bg-cinco','bg-seis','bg-siete','bg-ocho','bg-nueve','bg-diez');
+            body.classList.add('bg-tres');
         } else if (box.classList.contains('nueve')){
-            body.classList.toggle('bg-ocho');
+            body.classList.remove('bg-uno','bg-dos','bg-tres','bg-cuatro','bg-cinco','bg-seis','bg-siete','bg-ocho','bg-nueve','bg-diez');
+            body.classList.add('bg-ocho');
         } else if (box.classList.contains('diez')){
-            body.classList.toggle('bg-diez');
+            body.classList.remove('bg-uno','bg-dos','bg-tres','bg-cuatro','bg-cinco','bg-seis','bg-siete','bg-ocho','bg-nueve','bg-diez');
+            body.classList.add('bg-diez');
         }
     });
 })

@@ -53,12 +53,13 @@ main {
   margin: 0 0 3rem 0;
 }
 .services-tittle {
-  width: 100%;
-  margin: 5rem 0 2rem;
-  font-size: 3rem;
+  width: 50%;
+  margin: 3rem 10rem 2rem;
+  font-size: 1rem;
   font-weight: 300;
   color: #fe5542;
   text-align: center;
+  
 }
 .service-design{
   flex-grow: 1;
