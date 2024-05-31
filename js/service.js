@@ -71,7 +71,7 @@ class ServiceDesign extends HTMLElement {
                     margin: 1rem 1.5rem 0;
                     padding-top: 10px;
                     text-align: right;
-                    font-size: 2.3rem;
+                    font-size: 1.5rem;
                     font-weight: 900;
                     color: #ff7548;
                   }
