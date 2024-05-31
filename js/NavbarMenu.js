@@ -345,9 +345,7 @@ class NavbarMenu extends HTMLElement {
               </div>
               <div class="portfolio-option">
                 <a href="./pages/brandlover.html">Brandlover</a>
-                <a href="./pages/socialmedia.html">Social Media</a>
                 <a href="./pages/diseñoweb.html">Diseño Web</a>
-                <a href="./pages/modelado3d.html">Modelado 3D</a>
                 <a href="./pages/ilustracion.html">Ilustracion</a>
               </div>
             </li>

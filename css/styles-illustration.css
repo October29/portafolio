@@ -1,0 +1,172 @@
+
+.illustration_tittle {
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    width: 26vw;
+    margin: 2rem auto 0;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    width: 500px;
+    height: 500px;
+    padding: 1rem;
+    margin: 0 auto 2rem;
+}
+
+.cuadro {
+    background-color: aqua;
+    border-radius: 1rem;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 3px 3px 5px #181513;
+    cursor: pointer;
+}
+.cuadro:hover {
+    transform: scale(1.03);
+}
+.uno {
+    background-image: url(../img/draw05.jpeg);
+    background-size: cover;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.bg-uno {
+    background-image: url(../img/bg01.jpg);
+    animation: bg 1s ease-in-out forwards;
+    opacity: 0;
+}
+.bg-dos {
+    background-image: url(../img/bg02.jpg);
+    animation: bg 1s ease-in-out forwards;
+    opacity: 0;
+}
+.bg-tres {
+    background-image: url(../img/bg03.jpg);
+    animation: bg 1s ease-in-out forwards;
+    opacity: 0;
+}
+.bg-cuatro {
+    background-image: url(../img/bg04.jpg);
+    animation: bg 1s ease-in-out forwards;
+    opacity: 0;
+}
+.bg-cinco {
+    background-image: url(../img/bg05.jpg);
+    animation: bg 1s ease-in-out forwards;
+    opacity: 0;
+}
+.bg-seis {
+    background-image: url(../img/bg06.jpg);
+    animation: bg 1s ease-in-out forwards;
+    opacity: 0;
+}
+.bg-siete {
+    background-image: url(../img/bg07.jpg);
+    animation: bg 1s ease-in-out forwards;
+    opacity: 0;
+}
+.bg-ocho {
+    background-image: url(../img/bg08.jpg);
+    animation: bg 1s ease-in-out forwards;
+    opacity: 0;
+}
+.bg-nueve {
+    background-image: url(../img/bg09.jpg);
+    animation: bg 1s ease-in-out forwards;
+    opacity: 0;
+}
+.bg-diez {
+    background-image: url(../img/bg10.jpg);
+    animation: bg 1s ease-in-out forwards;
+    opacity: 0;
+}
+
+.tres {
+    background-image: url(../img/draw02.jpeg);
+    background-size: cover;
+    grid-column: 4/5;
+    grid-row: 5/6;
+}
+.cuatro {
+    background-image: url(../img/draw06.jpeg);
+    background-size: cover;
+    background-color: darkgoldenrod;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.cinco {
+    background-image: url(../img/draw01.jpeg);
+    background-size: cover;
+    background-color: darkmagenta;
+    grid-row: 2/4;
+    grid-column: 1/3;
+}
+.seis {
+    background-image: url(../img/draw07.jpeg);
+    background-size: cover;
+    background-position: center;
+    grid-row: 2/4;
+}
+.siete {
+    background-image: url(../img/draw09.jpeg);
+    background-size: cover;
+    background-position: right;
+    grid-column: 2/3;
+    grid-row: 4/6;
+}
+.ocho {
+    background-image: url(../img/draw03.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(87, 216, 141);
+    grid-row: 1/5;
+    grid-column: 3/5;
+}
+.nueve {
+    background-image: url(../img/draw08.jpeg);
+    background-size: cover;
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+.diez {
+    background-image: url(../img/draw10.jpeg);
+    background-size: cover;
+    grid-row: 4/5;
+    grid-column: 5/6;
+}
+
+.full {
+    grid-column: 1/6;
+    grid-row: 1/6;
+    z-index: 3;
+    opacity: 0;
+    animation: show 0.3s ease-in-out forwards;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+        transform: translate(-50px) scale(1);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0) scale(1.05);
+    }
+}
+
+@keyframes bg {
+    0% {
+        background-size: 100%;
+        opacity: 0;
+    }
+    100% {
+        background-size: 150%;
+        opacity: 1;
+    }
+}
